@@ -1,0 +1,528 @@
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.nav-links {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 120px;
+		margin-bottom: -85px;
+	}
+
+	.offer {
+		margin-left: 60px;
+		margin-top: 60px;
+	}
+
+	.intro {
+		font-size: 16px;
+	}
+
+	.btn {
+		padding: 16px 48px;
+	}
+
+	.boardermain {
+		width: 50%;
+		margin-left: 445px;
+		margin-top: -30px;
+	}
+
+	.heel {
+		margin-top: -149px;
+	}
+
+	h2 {
+		font-size: 50px;
+	}
+
+	.offertitle {
+    	margin-bottom: 30px;
+	}
+
+	.offertext {
+    	padding: 0 17px;
+	}
+
+	.offertext > br {
+    	display: none;
+	}
+
+	.options {
+    	margin-top: 60px;
+	}
+
+	.ski {
+		width: 60%;
+	}
+
+	.snowboard {
+		width: 47%;
+	}
+
+	.boarder {
+		width: 91%;
+	}
+
+	.photos > img {
+		width: 105%;
+	}
+
+	.schoolinfo {
+    	padding-top: 100px;
+	}
+
+	.info {
+    	background-size: 115%;
+	}
+
+	.stat {
+    	width: 700px;
+    	padding-bottom: 50px;
+	}
+
+	.paragraph {
+		font-size: 14px;
+	}
+
+	.crew {
+    	margin-top: 75px;
+	}
+
+	.instructor > img {
+		width: 75%;
+	}
+
+	.teammates {
+	    margin-bottom: 64px;
+	}
+
+	.content {
+	    padding-left: 75px;
+	}
+
+	.footer {
+		background-size: 146%;
+	}
+
+	.contact {
+     	width: auto; 
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.nav-links {
+		padding-left: 30px;
+	}
+
+	.nav-links a {
+		font-size: 16px;
+	}
+
+	.intro {
+		font-size: 14px;
+	}
+
+	.boardermain {
+	    width: 45%;
+	    margin-left: 380px;
+	    margin-top: -10px;
+	}
+
+	.btn {
+    	padding: 10px 35px;
+    	font-size: 14px;
+	}
+
+	.heel {
+    	margin-top: -115px;
+	}
+
+	.offertext {
+    	padding: 0 46px;
+	}
+
+	h3 {
+    	font-size: 18px;
+	}
+
+	.boarder {
+    	width: 69%;
+	}
+
+	.teach {
+		margin-bottom: 100px;
+	}
+
+	.teach-two {
+		margin-left: 32px;
+	}
+
+	.photos > img {
+    	width: 107%;
+	}
+
+	.schoolinfo {
+    	padding-top: 50px;
+	}
+
+	h2 {
+    	font-size: 45px;
+	}
+
+	.paragraph {
+    	width: 559px;
+    	font-size: 12px;
+	}
+
+	.mss {
+    	margin-bottom: 30px;
+    	line-height: 120%;
+	}
+
+	.paragraph > br {
+		display: none;
+	}
+
+	.stat {
+	    width: 578px;
+	    padding-bottom: 15px;
+	    font-size: 14px;
+	}
+
+	.info {
+    	background-size: 120%;
+	}
+
+	.contactus {
+		margin-bottom: 0;
+	}
+
+	.cont {
+	    width: 338px;
+	    font-size: 13px;
+	}
+
+	.socialmedia {
+	    width: 160px;
+	    margin-top: 12px;
+	}
+
+	.social {
+    	font-size: 35px;
+	}
+}
+
+#sandwich {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	margin: auto;
+	display: none;
+}
+.sw-top {
+	width: 50px;
+	height: 5px;
+	position: relative;
+	top: 0;
+	background: #fff;
+	border: none;
+	border-radius: 4px;
+	transition: transform 0.5s, top 0.2s;
+	transition-delay: 0.2s, 0s;
+}
+.sw-center {
+	width: 50px;
+	height: 5px;
+	position: relative;
+	top: 10px;
+	background: #fff;
+	border: none;
+	border-radius: 4px;
+	transition: transform 0.5s, top 0.2s;
+	transition-delay: 0.2s, 0s;
+}
+.sw-bottom {
+	width: 50px;
+	height: 5px;
+	position: relative;
+	top: 20px;
+	background: #fff;
+	border: none;
+	border-radius: 4px;
+	transition: transform 0.5s, top 0.2s;
+	transition-delay: 0.2s, 0s;
+}
+#sandwich.active .sw-top {
+	top: 15px;
+	transform: rotate(140deg);
+}
+#sandwich.active .sw-center {
+	top: 10px;
+	transform: rotate(-140deg);
+}
+#sandwich.active .sw-bottom {
+	top: 0;
+	opacity: 0;
+	transform: rotate(140deg);
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.menu {
+		width: 100%;
+		top: 20px;
+		display: none;
+	}
+
+	.nav-links {
+		display: block;
+		margin: 0;
+	}
+
+	.nav-links li {
+		display: block;
+		padding-bottom: 23px;
+	}
+
+	.nav-links a {
+		display: block;
+		font-size: 45px;
+		border-bottom: 1px solid #fff;
+	}
+
+	#sandwich {
+		display: block;
+		top: 30px;
+		right: 30px;
+	}
+
+	h1 {
+		font-size: 103px;
+		margin-bottom: 0;
+	}
+
+	.boardermain {
+		width: 50%;
+    	margin-left: 258px;
+    	margin-top: -77px;
+	}
+
+	.offer {
+		margin-left: 5px;
+		margin-top: -35px;
+	}
+
+	.intro {
+		font-size: 14px;
+		width: 265px;
+		margin: 40px 0;
+	}
+
+	.intro > br {
+		display: none;
+	}
+
+	.btn {
+		padding: 20px 55px;
+	}
+
+	.heel {
+		margin-top: -86px;
+	}
+
+	.offertext {
+		padding: 0 11px;
+	}
+
+	.options {
+		flex-direction: column;
+	}
+
+	.teach > img {
+		width: 45%;
+	}
+
+	.photos {
+		column-count: 1;
+	}
+
+	.photos > img {
+		width: 101%;
+	}
+
+	.info {
+		background-size: 190%;
+	}
+
+	.paragraph {
+		width: 336px;
+		font-size: 16px;
+	}
+
+	.stat {
+		flex-direction: column;
+		width: 309px;
+		padding-bottom: 15px;
+		font-size: 14px;
+	}
+
+	.schoolinfo {
+		padding: 50px 0;
+	}
+
+	.text-numbers {
+		display: flex;
+	}
+
+	.teammates {
+		flex-direction: column;
+	}
+
+	.instructor > img {
+		width: 50%;
+	}
+
+	.instructor {
+		margin-bottom: 40px;
+	}
+
+	.content {
+		padding: 0 113px;
+	}
+
+	.contactus {
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 46px;
+	}
+
+	.contact {
+		width: 100%;
+	}
+
+	.footer {
+		background: none;
+		width: 100%;
+	}
+
+	.cont {
+		width: 351px;
+		font-size: 12px;
+		padding-left: 30px;
+	}
+
+	.socialmedia {
+		justify-content: space-around;
+		width: auto;
+		margin: 30px 40px 55px 40px;
+		padding: 0;
+	}
+
+	.animated {
+		transition-property: none !important;
+		transform: none !important;
+		animation: none !important;
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.menu {
+		position: absolute;
+		background-color: #2e5386;
+	}
+
+	.nav-links a {
+		font-size: 37px;
+	}
+
+	h1 {
+		font-size: 56px;
+		margin-bottom: 0;
+	}
+	
+	.boardermain {
+		display: none;
+	}
+
+	.intro {
+		text-align: center;
+	}
+
+	.offer {
+		display: flex;
+		flex-direction: column;
+		margin-left: 10px;
+		margin-top: -30px;
+		position: inherit;
+	}
+
+	.teach-two {
+		margin-left: 0;
+	}
+
+	.mss {
+		text-align: center;
+	}
+
+	.stat {
+		width: 100%;
+	}
+
+	.text-numbers {
+		flex-direction: column;
+	}
+
+	.paragraph {
+		width: 100%;
+		font-size: 13px;
+		text-align: justify;
+	}
+
+	.info {
+		background-size: 524%;
+	}
+
+	.content {
+		padding: 0;
+		width: 100%;
+	}
+
+	.contact {
+		width: 100%;
+	}
+
+	.cont {
+		width: 100%;
+	}
+
+	.icon {
+		margin-right: 33px;
+	}
+
+	.socialmedia {
+		margin: 30px 90px 54px 40px;
+	}
+}

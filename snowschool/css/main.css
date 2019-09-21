@@ -1,0 +1,489 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Muli', sans-serif;
+    color: #2f2f2f;
+    overflow-x: hidden;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+
+header {
+    background-image: url(../img/background.png);
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.animated {
+    opacity: 0;
+}
+
+#first-block {
+    -webkit-animation-delay: 1700ms;
+    -o-animation-delay: 1700ms;
+    -moz-animation-delay: 1700ms;
+    animation-delay: 1700ms;
+}
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 78%;
+    padding-left: 100px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 20px;
+    -webkit-transition: linear .1s;
+    -o-transition: linear .1s;
+    transition: linear .1s;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.title {
+    color: #6ab5d0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 160px;
+    margin-bottom: -110px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.school {
+    font-size: 26px;
+}
+
+.mountains {
+    margin-bottom: -5px;
+    width: 100%;
+}
+
+.offer {
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 54px;
+    z-index: 2;
+}
+
+.intro {
+    font-size: 20px;
+    line-height: 180%;
+    margin-bottom: 54px;
+}
+
+.btn {
+    background: #ff690f;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    padding: 22px 60px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    -webkit-filter: brightness(1.4);
+    filter: brightness(1.4);
+}
+
+.boardermain {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -80px;
+    width: 60%;
+    z-index: 3;
+}
+
+.mountains {
+    z-index: 1;
+}
+
+.weoffer {
+    text-align: center;
+    margin-top: 88px;
+}
+
+.offertitle {
+    margin-bottom: 50px;
+}
+
+.offertext {
+    font-size: 18px;
+}
+
+.options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 65px;
+    width: 100%;
+}
+
+.teach {
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.question {
+    font-size: 14px;
+}
+
+.boarder {
+    width: 108%;
+}
+
+.lessons {
+    margin-bottom: 30px;
+}
+
+.tax {
+    padding: 18px 25px;
+}
+
+.photos {
+    line-height: 0;
+    -webkit-column-count: 3;
+    column-count: 3;
+    margin: -4px;
+    padding: 0;
+    width: 100%;
+}
+
+.number {
+    text-align: center;
+}
+
+.crew {
+    margin-top: 158px;
+    text-align: center;
+}
+
+.teammates {
+    margin-top: 64px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 164px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.info {
+    background-image: url(../img/section5.png);
+}
+
+.schoolinfo {
+    padding-top: 218px;
+}
+
+.mss {
+    margin-bottom: 60px;
+    line-height: 130%;
+}
+
+.stat {
+    width: 732px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 300px;
+}
+
+span {
+    color: #ff660d;
+    font-size: 60px;
+}
+
+.footer {
+    background-image: url(../img/map.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 auto;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.contact {
+    padding-top: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-item-align: center;
+    align-self: center;
+    width: 520px;
+}
+
+.cont {
+    width: 450px;
+}
+
+.contactus {
+    margin-bottom: 36px;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.socialmedia {
+    width: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 34px;
+    padding-bottom: 16px;
+}
+
+.social {
+    font-size: 40px;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.social:hover {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.content {
+    background: #2f2f2f;
+    padding-left: 130px;
+}
+
+.design {
+    font-size: 12px;
+}
+
+.top-button {
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 50%;
+    background: #2f2f2f;
+    z-index: 99;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: none;
+}
+
+.top-button:hover,
+.top-button:focus {
+    -webkit-filter: brightness(1.4);
+    filter: brightness(1.4);
+    outline: none;
+}
+
+.top-button::before,
+.top-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.top-button::before {
+    width: 5px;
+    height: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #f5f0f6;
+}
+
+.top-button:after {
+    width: 15px;
+    height: 15px;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: 5px solid #f5f0f6;
+    border-left: 5px solid #f5f0f6;
+}
+
+.popup-fast {
+    width: 310px;
+    height: 450px;
+    background: #F5EEFF;
+    border-radius: 6px;
+    z-index: 110;
+    padding: 20px 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+
+.popup-fast.active {
+    display: block;
+}
+
+.popup-fast .form-title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.popup-fast .form-text {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.popup-fast form {
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.popup-fast input {
+    border-radius: 10px;
+    border: 1px solid #BFB8D1;
+    padding: 10px 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+}
+
+.popup-fast .btn-send {
+    background: #ff690f;
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    padding: 10px 16px;
+    margin: 0 15px 0 15px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.popup-fast .btn-send:hover {
+    -webkit-filter: brightness(1.4);
+    filter: brightness(1.4);
+}
+
+.bg-popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 109;
+    background: rgba(202, 202, 202, 0.7);
+    display: none;
+}
