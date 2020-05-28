@@ -1,5 +1,5 @@
 $(window).on('load', function () {
-	$('.preloader').delay(1500).fadeOut('slow');
+	$('.preloader').delay(700).fadeOut('slow');
 });
 
 $('.menu-btn').on('click', function(e) {
