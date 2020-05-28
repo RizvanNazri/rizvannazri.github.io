@@ -117,7 +117,7 @@ h5 {
 }
 
 .main {
-    background: #fff url(../img/header-bg.png) center top no-repeat / contain;
+    background: #fff url(../img/header-bg.png) center top;
     grid-template-columns: repeat(10, 1fr);
     min-height: 700px;
 }
