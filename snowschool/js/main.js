@@ -1,6 +1,6 @@
 // настройка прелоудера
 $(window).on('load', function () {
-	$('.preloader').delay(1500).fadeOut('slow');
+	$('.preloader').delay(500).fadeOut('slow');
 });
 
 // настройка якорей
