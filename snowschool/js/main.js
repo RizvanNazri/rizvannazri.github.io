@@ -1,8 +1,3 @@
-// настройка прелоудера
-$(window).on('load', function () {
-	$('.preloader').delay(500).fadeOut('slow');
-});
-
 // настройка якорей
 $('.flowing-scroll').on('click', function () {
 	var el = $(this);
