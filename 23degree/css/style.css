@@ -264,7 +264,7 @@ h5 {
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
   opacity: 0;
-  visability: hidden;
+  visibility: hidden;
 }
 
 .menu-nav_link_active {
