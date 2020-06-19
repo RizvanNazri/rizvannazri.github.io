@@ -271,6 +271,7 @@ h5 {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
   opacity: 1;
+  visibility: visible;
 }
 
 .menu-nav_link:hover {
